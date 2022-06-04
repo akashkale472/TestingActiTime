@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteABK]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testPacke.VerifyHeaderOfApplication">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyUserButton"/>
+          <include name="clearObject"/>
+          <include name="createPomObject"/>
+          <include name="lanuchBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="verifyTaskButton"/>
+          <include name="logoutToApplication"/>
+        </methods>
+      </class> <!-- testPacke.VerifyHeaderOfApplication -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testPacke.VerifyHeaderOfApplication">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyUserButton"/>
+          <include name="clearObject"/>
+          <include name="createPomObject"/>
+          <include name="lanuchBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="verifyTaskButton"/>
+          <include name="logoutToApplication"/>
+        </methods>
+      </class> <!-- testPacke.VerifyHeaderOfApplication -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="MicrosoftedgeTest(failed)">
+    <parameter name="browser" value="Microsoftedge"/>
+    <classes>
+      <class name="testPacke.VerifyHeaderOfApplication">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyUserButton"/>
+          <include name="clearObject"/>
+          <include name="createPomObject"/>
+          <include name="lanuchBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="verifyTaskButton"/>
+          <include name="logoutToApplication"/>
+        </methods>
+      </class> <!-- testPacke.VerifyHeaderOfApplication -->
+    </classes>
+  </test> <!-- MicrosoftedgeTest(failed) -->
+</suite> <!-- Failed suite [SuiteABK] -->
